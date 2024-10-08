@@ -14,7 +14,7 @@ var rotasClientes = []Rota{
 	},
 	{
 		URI:    "/clientes/{clienteId}/extrato",
-		Metodo: http.MethodPost,
+		Metodo: http.MethodGet,
 		Funcao: controllers.BuscarExtrato,
 	},
 }
