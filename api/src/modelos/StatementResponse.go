@@ -8,9 +8,9 @@ type Statement struct {
 }
 
 type Saldo struct {
-	Total       int64     `json:"total" db:"total"`
-	DataExtrato time.Time `json:"data_extrato" db:"data_extrato"`
-	Limite      int64     `json:"limite" db:"limite"`
+	Total       int64     `json:"total"`
+	DataExtrato time.Time `json:"data_extrato" `
+	Limite      int64     `json:"limite"`
 }
 
 type Transacoes struct {
